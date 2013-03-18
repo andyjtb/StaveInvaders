@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02415DAE16F751A200749596 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02415DAD16F751A200749596 /* UIKit.framework */; };
+		02415DB016F751A200749596 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02415DAF16F751A200749596 /* Foundation.framework */; };
+		02415DB216F751A200749596 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02415DB116F751A200749596 /* CoreGraphics.framework */; };
+		02415DB816F751A200749596 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02415DB616F751A200749596 /* InfoPlist.strings */; };
+		02415DBA16F751A200749596 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02415DB916F751A200749596 /* main.m */; };
+		02415DBE16F751A200749596 /* SI_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02415DBD16F751A200749596 /* SI_AppDelegate.m */; };
+		02415DC016F751A200749596 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 02415DBF16F751A200749596 /* Default.png */; };
+		02415DC216F751A200749596 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02415DC116F751A200749596 /* Default@2x.png */; };
+		02415DC416F751A200749596 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02415DC316F751A200749596 /* Default-568h@2x.png */; };
+		02415DC716F751A200749596 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02415DC516F751A200749596 /* MainStoryboard_iPhone.storyboard */; };
+		02415DCA16F751A200749596 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02415DC816F751A200749596 /* MainStoryboard_iPad.storyboard */; };
+		02415DCD16F751A200749596 /* SI_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02415DCC16F751A200749596 /* SI_ViewController.m */; };
+		02415DD516F751A300749596 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02415DD416F751A300749596 /* SenTestingKit.framework */; };
+		02415DD616F751A300749596 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02415DAD16F751A200749596 /* UIKit.framework */; };
+		02415DD716F751A300749596 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02415DAF16F751A200749596 /* Foundation.framework */; };
+		02415DDF16F751A300749596 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02415DDD16F751A300749596 /* InfoPlist.strings */; };
+		02415DE216F751A300749596 /* StaveInvadersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02415DE116F751A300749596 /* StaveInvadersTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02415DD816F751A300749596 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02415DA216F751A200749596 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02415DA916F751A200749596;
+			remoteInfo = StaveInvaders;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02415DAA16F751A200749596 /* StaveInvaders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StaveInvaders.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02415DAD16F751A200749596 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		02415DAF16F751A200749596 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		02415DB116F751A200749596 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		02415DB516F751A200749596 /* StaveInvaders-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StaveInvaders-Info.plist"; sourceTree = "<group>"; };
+		02415DB716F751A200749596 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		02415DB916F751A200749596 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02415DBB16F751A200749596 /* StaveInvaders-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StaveInvaders-Prefix.pch"; sourceTree = "<group>"; };
+		02415DBC16F751A200749596 /* SI_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SI_AppDelegate.h; sourceTree = "<group>"; };
+		02415DBD16F751A200749596 /* SI_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SI_AppDelegate.m; sourceTree = "<group>"; };
+		02415DBF16F751A200749596 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		02415DC116F751A200749596 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		02415DC316F751A200749596 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		02415DC616F751A200749596 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		02415DC916F751A200749596 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		02415DCB16F751A200749596 /* SI_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SI_ViewController.h; sourceTree = "<group>"; };
+		02415DCC16F751A200749596 /* SI_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SI_ViewController.m; sourceTree = "<group>"; };
+		02415DD316F751A300749596 /* StaveInvadersTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StaveInvadersTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02415DD416F751A300749596 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		02415DDC16F751A300749596 /* StaveInvadersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StaveInvadersTests-Info.plist"; sourceTree = "<group>"; };
+		02415DDE16F751A300749596 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		02415DE016F751A300749596 /* StaveInvadersTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StaveInvadersTests.h; sourceTree = "<group>"; };
+		02415DE116F751A300749596 /* StaveInvadersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StaveInvadersTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02415DA716F751A200749596 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02415DAE16F751A200749596 /* UIKit.framework in Frameworks */,
+				02415DB016F751A200749596 /* Foundation.framework in Frameworks */,
+				02415DB216F751A200749596 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02415DCF16F751A300749596 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02415DD516F751A300749596 /* SenTestingKit.framework in Frameworks */,
+				02415DD616F751A300749596 /* UIKit.framework in Frameworks */,
+				02415DD716F751A300749596 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02415DA116F751A200749596 = {
+			isa = PBXGroup;
+			children = (
+				02415DB316F751A200749596 /* StaveInvaders */,
+				02415DDA16F751A300749596 /* StaveInvadersTests */,
+				02415DAC16F751A200749596 /* Frameworks */,
+				02415DAB16F751A200749596 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02415DAB16F751A200749596 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02415DAA16F751A200749596 /* StaveInvaders.app */,
+				02415DD316F751A300749596 /* StaveInvadersTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02415DAC16F751A200749596 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02415DAD16F751A200749596 /* UIKit.framework */,
+				02415DAF16F751A200749596 /* Foundation.framework */,
+				02415DB116F751A200749596 /* CoreGraphics.framework */,
+				02415DD416F751A300749596 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		02415DB316F751A200749596 /* StaveInvaders */ = {
+			isa = PBXGroup;
+			children = (
+				02415DBC16F751A200749596 /* SI_AppDelegate.h */,
+				02415DBD16F751A200749596 /* SI_AppDelegate.m */,
+				02415DC516F751A200749596 /* MainStoryboard_iPhone.storyboard */,
+				02415DC816F751A200749596 /* MainStoryboard_iPad.storyboard */,
+				02415DCB16F751A200749596 /* SI_ViewController.h */,
+				02415DCC16F751A200749596 /* SI_ViewController.m */,
+				02415DB416F751A200749596 /* Supporting Files */,
+			);
+			path = StaveInvaders;
+			sourceTree = "<group>";
+		};
+		02415DB416F751A200749596 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02415DB516F751A200749596 /* StaveInvaders-Info.plist */,
+				02415DB616F751A200749596 /* InfoPlist.strings */,
+				02415DB916F751A200749596 /* main.m */,
+				02415DBB16F751A200749596 /* StaveInvaders-Prefix.pch */,
+				02415DBF16F751A200749596 /* Default.png */,
+				02415DC116F751A200749596 /* Default@2x.png */,
+				02415DC316F751A200749596 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		02415DDA16F751A300749596 /* StaveInvadersTests */ = {
+			isa = PBXGroup;
+			children = (
+				02415DE016F751A300749596 /* StaveInvadersTests.h */,
+				02415DE116F751A300749596 /* StaveInvadersTests.m */,
+				02415DDB16F751A300749596 /* Supporting Files */,
+			);
+			path = StaveInvadersTests;
+			sourceTree = "<group>";
+		};
+		02415DDB16F751A300749596 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02415DDC16F751A300749596 /* StaveInvadersTests-Info.plist */,
+				02415DDD16F751A300749596 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02415DA916F751A200749596 /* StaveInvaders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02415DE516F751A300749596 /* Build configuration list for PBXNativeTarget "StaveInvaders" */;
+			buildPhases = (
+				02415DA616F751A200749596 /* Sources */,
+				02415DA716F751A200749596 /* Frameworks */,
+				02415DA816F751A200749596 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StaveInvaders;
+			productName = StaveInvaders;
+			productReference = 02415DAA16F751A200749596 /* StaveInvaders.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02415DD216F751A300749596 /* StaveInvadersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02415DE816F751A300749596 /* Build configuration list for PBXNativeTarget "StaveInvadersTests" */;
+			buildPhases = (
+				02415DCE16F751A300749596 /* Sources */,
+				02415DCF16F751A300749596 /* Frameworks */,
+				02415DD016F751A300749596 /* Resources */,
+				02415DD116F751A300749596 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02415DD916F751A300749596 /* PBXTargetDependency */,
+			);
+			name = StaveInvadersTests;
+			productName = StaveInvadersTests;
+			productReference = 02415DD316F751A300749596 /* StaveInvadersTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02415DA216F751A200749596 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SI_;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = AMTCS;
+			};
+			buildConfigurationList = 02415DA516F751A200749596 /* Build configuration list for PBXProject "StaveInvaders" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 02415DA116F751A200749596;
+			productRefGroup = 02415DAB16F751A200749596 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02415DA916F751A200749596 /* StaveInvaders */,
+				02415DD216F751A300749596 /* StaveInvadersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02415DA816F751A200749596 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02415DB816F751A200749596 /* InfoPlist.strings in Resources */,
+				02415DC016F751A200749596 /* Default.png in Resources */,
+				02415DC216F751A200749596 /* Default@2x.png in Resources */,
+				02415DC416F751A200749596 /* Default-568h@2x.png in Resources */,
+				02415DC716F751A200749596 /* MainStoryboard_iPhone.storyboard in Resources */,
+				02415DCA16F751A200749596 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02415DD016F751A300749596 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02415DDF16F751A300749596 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02415DD116F751A300749596 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02415DA616F751A200749596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02415DBA16F751A200749596 /* main.m in Sources */,
+				02415DBE16F751A200749596 /* SI_AppDelegate.m in Sources */,
+				02415DCD16F751A200749596 /* SI_ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02415DCE16F751A300749596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02415DE216F751A300749596 /* StaveInvadersTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02415DD916F751A300749596 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02415DA916F751A200749596 /* StaveInvaders */;
+			targetProxy = 02415DD816F751A300749596 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02415DB616F751A200749596 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02415DB716F751A200749596 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		02415DC516F751A200749596 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02415DC616F751A200749596 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		02415DC816F751A200749596 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02415DC916F751A200749596 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		02415DDD16F751A300749596 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02415DDE16F751A300749596 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02415DE316F751A300749596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02415DE416F751A300749596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02415DE616F751A300749596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StaveInvaders/StaveInvaders-Prefix.pch";
+				INFOPLIST_FILE = "StaveInvaders/StaveInvaders-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		02415DE716F751A300749596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StaveInvaders/StaveInvaders-Prefix.pch";
+				INFOPLIST_FILE = "StaveInvaders/StaveInvaders-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		02415DE916F751A300749596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StaveInvaders.app/StaveInvaders";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StaveInvaders/StaveInvaders-Prefix.pch";
+				INFOPLIST_FILE = "StaveInvadersTests/StaveInvadersTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		02415DEA16F751A300749596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StaveInvaders.app/StaveInvaders";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StaveInvaders/StaveInvaders-Prefix.pch";
+				INFOPLIST_FILE = "StaveInvadersTests/StaveInvadersTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02415DA516F751A200749596 /* Build configuration list for PBXProject "StaveInvaders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02415DE316F751A300749596 /* Debug */,
+				02415DE416F751A300749596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02415DE516F751A300749596 /* Build configuration list for PBXNativeTarget "StaveInvaders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02415DE616F751A300749596 /* Debug */,
+				02415DE716F751A300749596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		02415DE816F751A300749596 /* Build configuration list for PBXNativeTarget "StaveInvadersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02415DE916F751A300749596 /* Debug */,
+				02415DEA16F751A300749596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02415DA216F751A200749596 /* Project object */;
+}
