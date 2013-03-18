@@ -50,8 +50,8 @@
 		02415DBF16F751A200749596 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = StaveInvaders/Default.png; sourceTree = SOURCE_ROOT; };
 		02415DC116F751A200749596 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "StaveInvaders/Default@2x.png"; sourceTree = SOURCE_ROOT; };
 		02415DC316F751A200749596 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		02415DC616F751A200749596 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		02415DC916F751A200749596 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		02415DC616F751A200749596 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		02415DC916F751A200749596 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		02415DCB16F751A200749596 /* SI_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SI_ViewController.h; path = StaveInvaders/SI_ViewController.h; sourceTree = SOURCE_ROOT; };
 		02415DCC16F751A200749596 /* SI_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SI_ViewController.m; path = StaveInvaders/SI_ViewController.m; sourceTree = SOURCE_ROOT; };
 		02415DD316F751A300749596 /* StaveInvadersTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StaveInvadersTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -473,6 +473,7 @@
 				02415DE716F751A300749596 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		02415DE816F751A300749596 /* Build configuration list for PBXNativeTarget "StaveInvadersTests" */ = {
 			isa = XCConfigurationList;
@@ -481,6 +482,7 @@
 				02415DEA16F751A300749596 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
