@@ -41,19 +41,19 @@
 		02415DAD16F751A200749596 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		02415DAF16F751A200749596 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		02415DB116F751A200749596 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		02415DB516F751A200749596 /* StaveInvaders-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StaveInvaders-Info.plist"; sourceTree = "<group>"; };
+		02415DB516F751A200749596 /* StaveInvaders-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "StaveInvaders-Info.plist"; path = "StaveInvaders/StaveInvaders-Info.plist"; sourceTree = SOURCE_ROOT; };
 		02415DB716F751A200749596 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		02415DB916F751A200749596 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		02415DBB16F751A200749596 /* StaveInvaders-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StaveInvaders-Prefix.pch"; sourceTree = "<group>"; };
-		02415DBC16F751A200749596 /* SI_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SI_AppDelegate.h; sourceTree = "<group>"; };
-		02415DBD16F751A200749596 /* SI_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SI_AppDelegate.m; sourceTree = "<group>"; };
-		02415DBF16F751A200749596 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		02415DC116F751A200749596 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		02415DB916F751A200749596 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = StaveInvaders/main.m; sourceTree = SOURCE_ROOT; };
+		02415DBB16F751A200749596 /* StaveInvaders-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "StaveInvaders-Prefix.pch"; path = "StaveInvaders/StaveInvaders-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		02415DBC16F751A200749596 /* SI_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SI_AppDelegate.h; path = StaveInvaders/SI_AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		02415DBD16F751A200749596 /* SI_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SI_AppDelegate.m; path = StaveInvaders/SI_AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		02415DBF16F751A200749596 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = StaveInvaders/Default.png; sourceTree = SOURCE_ROOT; };
+		02415DC116F751A200749596 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "StaveInvaders/Default@2x.png"; sourceTree = SOURCE_ROOT; };
 		02415DC316F751A200749596 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		02415DC616F751A200749596 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		02415DC916F751A200749596 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		02415DCB16F751A200749596 /* SI_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SI_ViewController.h; sourceTree = "<group>"; };
-		02415DCC16F751A200749596 /* SI_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SI_ViewController.m; sourceTree = "<group>"; };
+		02415DCB16F751A200749596 /* SI_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SI_ViewController.h; path = StaveInvaders/SI_ViewController.h; sourceTree = SOURCE_ROOT; };
+		02415DCC16F751A200749596 /* SI_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SI_ViewController.m; path = StaveInvaders/SI_ViewController.m; sourceTree = SOURCE_ROOT; };
 		02415DD316F751A300749596 /* StaveInvadersTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StaveInvadersTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02415DD416F751A300749596 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		02415DDC16F751A300749596 /* StaveInvadersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StaveInvadersTests-Info.plist"; sourceTree = "<group>"; };
@@ -306,7 +306,8 @@
 				02415DB716F751A200749596 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
+			path = StaveInvaders;
+			sourceTree = SOURCE_ROOT;
 		};
 		02415DC516F751A200749596 /* MainStoryboard_iPhone.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -314,7 +315,8 @@
 				02415DC616F751A200749596 /* en */,
 			);
 			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
+			path = StaveInvaders;
+			sourceTree = SOURCE_ROOT;
 		};
 		02415DC816F751A200749596 /* MainStoryboard_iPad.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -322,7 +324,8 @@
 				02415DC916F751A200749596 /* en */,
 			);
 			name = MainStoryboard_iPad.storyboard;
-			sourceTree = "<group>";
+			path = StaveInvaders;
+			sourceTree = SOURCE_ROOT;
 		};
 		02415DDD16F751A300749596 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
@@ -399,6 +402,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StaveInvaders/StaveInvaders-Prefix.pch";
 				INFOPLIST_FILE = "StaveInvaders/StaveInvaders-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -410,6 +414,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StaveInvaders/StaveInvaders-Prefix.pch";
 				INFOPLIST_FILE = "StaveInvaders/StaveInvaders-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
